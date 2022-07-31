@@ -8,16 +8,23 @@
 
 body {
     font-family: nunito-sans,sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 /* Header and nav bar design */
+
+header {
+    width: 100%;
+    height: 75px;
+    clear: both;
+    background-color: #EBE1CA;
+}
 
 #logo {
     float: left;
     padding-left: 30px;
     letter-spacing: 3px;
-    color: rgb(18, 168, 228);
+    color: #7D9EAD;
 }
 
 #menu {
@@ -37,9 +44,37 @@ body {
 
 #menu a {
     text-decoration: none;
-    color:  rgb(18, 168, 228);
+    color:  #7D9EAD;
 }
 
 #menu a:hover {
     text-decoration: underline;
+}
+
+/* What is mindfulness section */
+
+#mindfulness_outer {
+    background-color: #195f80;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#mindfulness_heading {
+    color: #EBE1CA;
+    font-size: 280%;
+}
+
+#sec_heading {
+    clear: both;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#list {
+    width: 66%;
+    float: left;
+    padding-left: 15px;
+    padding-top: 30px;
 }
