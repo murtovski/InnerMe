@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: nunito-sans,sans-serif;
+    font-family: nunito-sans, sans-serif;
     font-weight: 300;
 }
 
@@ -30,9 +30,11 @@ header {
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
+    font-weight: 400;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -44,7 +46,7 @@ header {
 
 #menu a {
     text-decoration: none;
-    color:  #7D9EAD;
+    color: #7D9EAD;
 }
 
 #menu a:hover {
@@ -77,4 +79,14 @@ header {
     float: left;
     padding-left: 15px;
     padding-top: 30px;
+    color: #EBE1CA;
+}
+
+#list li {
+    padding-bottom: 30px;
+}
+
+ul li{
+    list-style-position: outside;
+    margin-left: 1em;
 }
