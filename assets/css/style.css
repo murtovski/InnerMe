@@ -57,7 +57,7 @@ header {
 
 #mindfulness_outer {
     background-color: #195f80;
-    height: 350px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 }
@@ -75,35 +75,55 @@ header {
 }
 
 .fa-ul{
-    list-style-type: none;
-    margin-left: var(--fa-li-margin,0);
+    margin-left: --fa-li-margin,0;
     padding-left: 0;
     width: auto;
 }
 
-ul {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    padding-inline-start: 0;
-}
-
 #list {
-    width: 100%;
+    width: 66%;
     float: left;
     padding-left: 0;
     padding-top: 30px;
     color: #EBE1CA;
-    text-align: center;
+}
+
+
+#list, #sidebar {
+    display: inline-block;
 }
 
 #list li {
-    padding: 15px, 30px;
     padding-bottom: 30px;
+    left: 30px;
+    font-size: 150%;
 }
 
 ul li{
     list-style-position: inside;
 }
 
+
+/* Sidebar for the mindfulness section */
+#sidebar {
+    float: right;
+    width: 30%;
+    height: 70%;
+    background-color: #EBE1CA;
+    border: 6px outset skyblue;
+}
+
+#sidebar h3 {
+    padding-top: 30px;
+    text-align: center;
+    color: #7D9EAD;
+    font-size: 170%;
+}
+
+#sidebar li {
+    padding-top: 30px;
+    font-size: 130%;
+    list-style: none;
+    color: #7D9EAD;
+    font-weight: 400;
+}
