@@ -74,12 +74,6 @@ header {
     text-align: center;
 }
 
-.fa-ul{
-    margin-left: --fa-li-margin,0;
-    padding-left: 0;
-    width: auto;
-}
-
 #list {
     width: 66%;
     float: left;
@@ -88,8 +82,8 @@ header {
     color: #EBE1CA;
 }
 
-
-#list, #sidebar {
+#list,
+#sidebar {
     display: inline-block;
 }
 
@@ -99,13 +93,16 @@ header {
     font-size: 150%;
 }
 
-ul li{
+ul li {
     list-style-position: inside;
 }
 
 
 /* Sidebar for the mindfulness section */
 #sidebar {
+    position: relative;
+    top: 0;
+    right: 10px;
     float: right;
     width: 30%;
     height: 70%;
@@ -126,4 +123,15 @@ ul li{
     list-style: none;
     color: #7D9EAD;
     font-weight: 400;
+    padding-left: 10px;
+    vertical-align: auto;
+}
+
+.wrapper {
+    width: inherit;
+    word-break: break-word;
+}
+
+#small-list {
+    padding-left: 10px;
 }
