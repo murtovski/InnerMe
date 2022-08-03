@@ -56,7 +56,7 @@ header {
 /* What is mindfulness section */
 
 #mindfulness_outer {
-    background-color: #195f80;
+    background-color: #27345e;
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -104,7 +104,7 @@ ul li {
     top: 0;
     right: 10px;
     float: right;
-    width: 30%;
+    width: 25%;
     height: 70%;
     background-color: #EBE1CA;
     border: 6px outset skyblue;
@@ -134,4 +134,75 @@ ul li {
 
 #small-list {
     padding-left: 10px;
+}
+
+/* Groups section */
+
+#groups {
+    width: 100%;
+    height: 200px;
+    background: url(../images/group-picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 70%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#groups div {
+    width: 20%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .6);
+    float: left;
+    border: 1px solid #EBE1CA;
+    text-align: center;
+    color: #EBE1CA;
+    box-sizing: border-box;
+}
+
+#groups h3 {
+    padding-top: 13px;
+    font-size: 90%;
+}
+
+#groups h2 {
+    font-size: 150%;
+    padding-top: 15px;
+}
+
+#blank-box {
+    border: none;
+}
+
+#title-box h2{
+    padding-top: 50px;
+}
+
+/* Footer Styling */
+
+footer {
+    width: 100%;
+    height: 150px;
+    clear: both;
+    background-color: #EBE1CA;
+}
+
+.social-networks {
+    list-style: none;
+    text-align: center;
+}
+
+.social-networks a {
+    text-decoration: none;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 4%;
+    color: #27345e;
 }
