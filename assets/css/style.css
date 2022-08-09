@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Oswald&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito+Sans:wght@300&family=Oswald&family=Patrick+Hand&display=swap');
 * {
     margin: 0;
     border: 0;
@@ -10,6 +9,9 @@ body {
     font-family: nunito-sans, sans-serif;
     font-weight: 300;
 }
+
+
+
 
 /* Header and nav bar design */
 
@@ -31,6 +33,7 @@ header {
     font-size: 110%;
     letter-spacing: 3px;
     font-weight: 400;
+    overflow: hidden;
 }
 
 #menu,
@@ -51,6 +54,139 @@ header {
 
 #menu a:hover {
     text-decoration: underline;
+}
+
+/* Hero image section */
+
+#hero-outer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#hero-image {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/inner-self.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: center;
+    /* background-size: cover; */
+    background-color: #27345e;
+    
+
+    /* Apply zoom effect */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Create a zoom effect */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#hero h2 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 210%;
+    color: #EBE1CA;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+/* Homepage information section */
+
+#info-outer {
+    width: 100%;
+    height: 600px;
+    background-color: #27345e;
+    overflow: hidden;
+}
+
+#left-place {
+    height: 600px;
+    width: 20%;
+    float: left;
+    background-image: url(../images/shadow-running.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-position-x: 67%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#right-place {
+    height: 600px;
+    width: 20%;
+    float: right;
+    background-image: url(../images/shadow-meditating.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-position-x: 35%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#home-info {
+    width: 60%;
+    height: 600px;
+    left: 20%;
+    background-color: #7D9EAD;
+    color: #EBE1CA;
+    overflow: hidden;
+}
+
+#home-info h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Groups section */
+
+#groups {
+    width: 100%;
+    height: 200px;
+    background: url(../images/group-picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 70%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#groups div {
+    width: 20%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .4);
+    float: left;
+    border: 1px solid #EBE1CA;
+    text-align: center;
+    color: #EBE1CA;
+    box-sizing: border-box;
+}
+
+#groups h3 {
+    padding-top: 13px;
+    font-size: 90%;
+}
+
+#groups h2 {
+    font-size: 150%;
+    padding-top: 15px;
+}
+
+#blank-box {
+    border: none;
+}
+
+#title-box h2{
+    padding-top: 50px;
 }
 
 /* What is mindfulness section */
@@ -136,48 +272,6 @@ ul li {
     padding-left: 10px;
 }
 
-/* Groups section */
-
-#groups {
-    width: 100%;
-    height: 200px;
-    background: url(../images/group-picture.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: 70%;
-    background-size: cover;
-    overflow: hidden;
-}
-
-#groups div {
-    width: 20%;
-    height: 200px;
-    background-color: rgba(0, 0, 0, .6);
-    float: left;
-    border: 1px solid #EBE1CA;
-    text-align: center;
-    color: #EBE1CA;
-    box-sizing: border-box;
-}
-
-#groups h3 {
-    padding-top: 13px;
-    font-size: 90%;
-}
-
-#groups h2 {
-    font-size: 150%;
-    padding-top: 15px;
-}
-
-#blank-box {
-    border: none;
-}
-
-#title-box h2{
-    padding-top: 50px;
-}
-
 /* Footer Styling */
 
 footer {
@@ -205,4 +299,15 @@ footer {
     margin: 1%;
     padding: 4%;
     color: #27345e;
+}
+.divide {
+    height: 5px;
+    width: 100%;
+    background-color: #EBE1CA;
+}
+
+.style-head {
+    font-size: 300%;
+    letter-spacing: 2px;
+    font-family: 'patrick hand', sans-serif;
 }
