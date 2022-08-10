@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito+Sans:wght@300&family=Oswald&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nunito+Sans:wght@300&family=Oswald&family=PT+Serif&family=Patrick+Hand&display=swap');
+
 * {
     margin: 0;
     border: 0;
@@ -73,7 +74,7 @@ header {
     background-position-y: 60%;
     background-size: cover;
     background-color: #27345e;
-    
+
 
     /* Apply zoom effect */
 
@@ -87,6 +88,7 @@ header {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -153,12 +155,23 @@ header {
     padding-top: 50px;
 }
 
+#help-list {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+#help-list li {
+    padding-top: 30px;
+    font-size: 140%;
+}
+
 /* Groups section */
 
 #groups {
     width: 100%;
     height: 200px;
-    background: url(../images/group-picture.jpg);
+    background: url(../images/pheonix-park1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 70%;
@@ -191,7 +204,7 @@ header {
     border: none;
 }
 
-#title-box h2{
+#title-box h2 {
     padding-top: 50px;
 }
 
@@ -306,6 +319,7 @@ footer {
     padding: 4%;
     color: #27345e;
 }
+
 .divide {
     height: 5px;
     width: 100%;
@@ -315,5 +329,5 @@ footer {
 .style-head {
     font-size: 300%;
     letter-spacing: 2px;
-    font-family: 'patrick hand', sans-serif;
+    font-family: 'PT Serif', sans-serif;
 }
