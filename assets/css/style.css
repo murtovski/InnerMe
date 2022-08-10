@@ -151,8 +151,9 @@ header {
 }
 
 #home-info h2 {
+    font-size: 320%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 #help-list {
@@ -208,10 +209,29 @@ header {
     padding-top: 50px;
 }
 
+/* mindfulness hero picture */
+
+#mindfulness-hero-outer {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-color: #c39d3c;
+}
+
+#mindfulness-hero-picture {
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/mindfulness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 26%;
+}
+
 /* What is mindfulness section */
 
 #mindfulness_outer {
-    background-color: #27345e;
+    background-color: #c39d3c;
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -256,19 +276,20 @@ ul li {
 /* Sidebar for the mindfulness section */
 #sidebar {
     position: relative;
-    top: 0;
+    top: 75px;
     right: 10px;
     float: right;
     width: 25%;
-    height: 70%;
+    height: 65%;
     background-color: #EBE1CA;
-    border: 6px outset skyblue;
+    border: 3px solid #c39d3c;
+    border-radius: 10%;
 }
 
 #sidebar h3 {
     padding-top: 30px;
     text-align: center;
-    color: #7D9EAD;
+    color: #c39d3c;
     font-size: 170%;
 }
 
@@ -276,10 +297,9 @@ ul li {
     padding-top: 30px;
     font-size: 130%;
     list-style: none;
-    color: #7D9EAD;
+    color: #c39d3c;
     font-weight: 400;
     padding-left: 10px;
-    vertical-align: auto;
 }
 
 .wrapper {
@@ -327,7 +347,7 @@ footer {
 }
 
 .style-head {
-    font-size: 300%;
+    font-size: 160%;
     letter-spacing: 2px;
     font-family: 'PT Serif', sans-serif;
 }
