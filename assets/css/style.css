@@ -75,7 +75,6 @@ header {
     background-size: cover;
     background-color: #27345e;
 
-
     /* Apply zoom effect */
 
     animation-name: hero-zoom;
@@ -309,6 +308,40 @@ ul li {
 
 #small-list {
     padding-left: 10px;
+}
+
+/* video section */
+
+#video-outer {
+    height: 300px;
+    width: 100%;
+}
+
+#explanation {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: #c39d3c;
+    color: #EBE1CA;
+}
+
+#explanation h2 {
+    font-size: 250%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#explanation p {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 145%;
+    padding-right: 20px;
+}
+
+#video {
+    width: 50%;
+    height: 300px;
+    float: right;
 }
 
 /* Footer Styling */
