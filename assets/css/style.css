@@ -390,6 +390,26 @@ ul li {
     padding-bottom: 6px;
 }
 
+
+/* sleep page */
+
+#sleep-hero {
+    width: 100%;
+    height: 300px;
+}
+
+#sleep-hero-outer {
+    width: 100%;
+    height: 300px;
+    background-color: #EBE1CA;
+    background-image: url(../images/sleep-hero.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 /* Footer Styling */
 
 footer {
