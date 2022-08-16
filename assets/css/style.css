@@ -407,7 +407,35 @@ ul li {
     overflow: hidden;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: 48%;
+}
+
+#sleep-benefits {
+    width: 100%;
+    height: 600px;
+    background-color: #c39d3c;
+}
+
+#sleep-benefits-box {
+    width: 66%;
+    height: 600px;
+    background-color: #EBE1CA;
+    color: #c39d3c;
+}
+
+.sleep-heading {
+    font-family: 'PT Serif', sans-serif;
+    padding-top: 50px;
+}
+
+#sleep-benefits-box h2 {
+    text-align: center;
+    font-size: 250%;
+}
+
+#sleep-benefit-list li, h3 {
+    padding-top: 10px;
+    font-size: 150%;
 }
 
 /* Footer Styling */
