@@ -11,10 +11,9 @@ body {
     font-family: nunito-sans, sans-serif;
     font-weight: 300;
     font-size: 16px;
+    background-color: #f8f0e3;
     color: #232250;
 }
-
-
 
 /* Header and nav bar design */
 
@@ -75,13 +74,13 @@ button:hover {
 
 #hero-outer {
     width: 100%;
-    height: 600px;
+    height: 300px;
     overflow: hidden;
 }
 
 #hero-image {
     width: 100%;
-    height: 600px;
+    height: 300px;
     background-image: url(../images/inner-self.jpg);
     background-repeat: no-repeat;
     background-position: 56%;
@@ -119,48 +118,12 @@ button:hover {
 
 #info-outer {
     width: 100%;
-    height: 600px;
-    background-color: #27345e;
+    height: fit-content;
     overflow: hidden;
-}
-
-#left-place {
-    height: 596px;
-    width: 20%;
-    float: left;
-    background-image: url(../images/shadow-running.jpg);
-    background-repeat: no-repeat;
-    background-position-y: 30%;
-    background-position-x: 67%;
-    background-size: cover;
-    overflow: hidden;
-    border-top: 2px solid;
-    border-bottom: 2px solid black;
-}
-
-#right-place {
-    height: 596px;
-    width: 20%;
-    float: right;
-    background-image: url(../images/shadow-meditating.jpg);
-    background-repeat: no-repeat;
-    background-position-y: 30%;
-    background-position-x: 35%;
-    background-size: cover;
-    overflow: hidden;
-    border-top: 2px solid;
-    border-bottom: 2px solid black;
 }
 
 #home-info {
-    margin: 0 auto;
-    width: 59.66%;
-    height: 600px;
-    left: 20%;
-    background-color: #EBE1CA;
-    color: #c39d3c;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    display: flex;
 }
 
 #home-info h2 {
@@ -557,7 +520,7 @@ footer {
 .divide {
     height: 5px;
     width: 100%;
-    background-color: #EBE1CA;
+    background-color: #232250;
 }
 
 .style-head {
