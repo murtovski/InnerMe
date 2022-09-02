@@ -15,6 +15,10 @@ body {
     color: #36454F;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'PT Serif', sans-serif;
+}
+
 /* Header and nav bar design */
 
 header {
@@ -32,6 +36,8 @@ header {
 }
 
 .logo h1 {
+    font-family: nunito-sans, sans-serif;
+    color: #232250;
     text-decoration: none;
 }
 
@@ -49,6 +55,7 @@ header {
 .menu li a {
     text-decoration: none;
     transition: all 0.3s ease 0s;
+    color: #232250;
 }
 
 .menu li a:hover {
@@ -126,7 +133,7 @@ button:hover {
 #home-info {
     position: relative;
     left: 50%;
-    transform: translate(-50%); 
+    transform: translate(-50%);
     width: 75%;
 }
 
@@ -379,14 +386,15 @@ ul li {
 /* sleep page */
 
 #sleep-hero {
-    width: 100%;
     height: 300px;
+    width: 100%;
 }
 
 
 #sleep-benefits-box ul {
     padding: 0;
     margin: 0;
+    list-style-type: none;
 }
 
 #sleep-hero-outer {
@@ -401,30 +409,27 @@ ul li {
     background-position-y: 48%;
 }
 
-#sleep-benefits {
-    width: 100%;
-    height: 600px;
-    background-color: #f8f0e3;
-}
+/* Sleep Benefits */
+
 
 #sleep-benefits-box {
+    display: flex;
     width: 100%;
-    height: 600px;
     background-color: #f8f0e3;
+    justify-content: center;
 }
 
 .sleep-heading {
     font-family: 'PT Serif', sans-serif;
     padding-top: 40px;
     text-align: center;
-    text-align: center;
 }
 
-#sleep-benefits-box h2 {
+#sleep-benefits h2 {
     font-size: 250%;
 }
 
-#sleep-benefits-box h3 {
+#sleep-benefits h3 {
     font-size: 200%;
     padding-bottom: 40px;
 }
@@ -432,18 +437,15 @@ ul li {
 #sleep-benefit-left {
     width: 33%;
     height: fit-content;
-    float: left;
 }
 
 #sleep-benefit-right {
     float: right;
     width: 33%;
     height: fit-content;
-    text-align: right;
 }
 
 #sleep-benefit-center {
-    margin: 0 auto;
     height: 300px;
     width: 300px;
     padding: 30px;
@@ -459,54 +461,76 @@ ul li {
 }
 
 #sleep-benefits-box li {
-    padding: 30px 40px 0 40px;
-    font-size: 160%;
+    padding: 10px 10px;
+    font-size: 1.75rem;
 }
 
 /* sleep practice section */
+
+
+#sleep-practice {
+    clear: both;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#list-left {
+    width: 90%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 30px 0;
+}
+
 
 #sleep-practice ul {
     list-style-type: none;
 }
 
-#sleep-practice {
-    width: 100%;
-    height: fit-content;
-}
-
-#list-left {
-    width: 50%;
-    height: 100%;
-}
-
-#list-right {
-    width: 50%;
-    height: 100%;
+#list-left h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5rem;
 }
 
 .left-content {
-    height: 10%;
-    width: 100%;
-    padding: 10px 15px 0 15px;
+    text-align: center;
 }
+
+.left-content h4 {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-top: 10px;
+}
+
+.left-content p {
+    font-size: 1rem;
+    padding: 10px 10px;
+}
+
 
 /* Footer Styling */
 
 footer {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px 10%;
 }
 
 .social-networks {
-        list-style-type: none;
-        margin-right: 30px;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        flex: 1;
-        gap: 70px;
+    list-style-type: none;
+    margin-right: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 70px;
 }
 
 .social-networks a {
@@ -548,10 +572,10 @@ footer {
 }
 
 .light-divide {
-    border: 1px solid  rgba(35, 34, 80, 0.5);
-    background-color:  rgba(35, 34, 80, 0.5);
+    border: 1px solid rgba(35, 34, 80, 0.5);
+    background-color: rgba(35, 34, 80, 0.5);
     width: 75%;
     position: relative;
     left: 50%;
-    transform: translate(-50%);    
+    transform: translate(-50%);
 }
