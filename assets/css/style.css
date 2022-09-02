@@ -12,7 +12,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     background-color: #f8f0e3;
-    color: #232250;
+    color: #36454F;
 }
 
 /* Header and nav bar design */
@@ -23,6 +23,7 @@ header {
     align-items: center;
     padding: 30px 10%;
     background-color: #f8f0e3;
+    color: #232250;
 }
 
 .logo {
@@ -109,7 +110,7 @@ button:hover {
 #hero-image h2 {
     font-family: 'Dancing Script', sans-serif;
     font-size: 210%;
-    color: #EBE1CA;
+    color: #f8f0e3;
     padding-left: 87px;
     padding-top: 77px;
 }
@@ -123,7 +124,10 @@ button:hover {
 }
 
 #home-info {
-    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%); 
+    width: 75%;
 }
 
 #home-info h2 {
@@ -140,14 +144,14 @@ button:hover {
 }
 
 #help-list li {
-    padding-top: 30px;
+    padding: 30px 0px;
     font-size: 140%;
 }
 
 /* Groups section */
 
 #groups {
-    width: 100%;
+    display: flex;
     height: 200px;
     background: url(../images/pheonix-park1.jpg);
     background-repeat: no-repeat;
@@ -158,14 +162,18 @@ button:hover {
 }
 
 #groups div {
-    width: 20%;
     height: 200px;
     background-color: rgba(0, 0, 0, .4);
-    float: left;
-    border: 1px solid #EBE1CA;
     text-align: center;
-    color: #EBE1CA;
+    color: #f8f0e3;
     box-sizing: border-box;
+    flex: 1;
+}
+
+.center-box {
+    border-style: solid;
+    border-color: #f8f0e3;
+    border-width: 0 1px;
 }
 
 #groups h3 {
@@ -215,7 +223,7 @@ button:hover {
 }
 
 #mindfulness_heading {
-    color: #EBE1CA;
+    color: #f8f0e3;
     font-size: 280%;
 }
 
@@ -231,7 +239,7 @@ button:hover {
     float: left;
     padding-left: 0;
     padding-top: 30px;
-    color: #EBE1CA;
+    color: #f8f0e3;
 }
 
 #list,
@@ -258,7 +266,7 @@ ul li {
     float: right;
     width: 25%;
     height: 65%;
-    background-color: #EBE1CA;
+    background-color: #f8f0e3;
     border: 3px solid #c39d3c;
     border-radius: 10%;
 }
@@ -329,7 +337,7 @@ ul li {
 #meditation {
     width: 100%;
     height: 700px;
-    background-color: #EBE1CA;
+    background-color: #f8f0e3;
 }
 
 #meditation-box {
@@ -384,7 +392,7 @@ ul li {
 #sleep-hero-outer {
     width: 100%;
     height: 300px;
-    background-color: #EBE1CA;
+    background-color: #f8f0e3;
     background-image: url(../images/sleep-hero.jpg);
     background-repeat: no-repeat;
     overflow: hidden;
@@ -396,14 +404,13 @@ ul li {
 #sleep-benefits {
     width: 100%;
     height: 600px;
-    background-color: #c39d3c;
+    background-color: #f8f0e3;
 }
 
 #sleep-benefits-box {
     width: 100%;
     height: 600px;
-    background-color: #EBE1CA;
-    color: #c39d3c;
+    background-color: #f8f0e3;
 }
 
 .sleep-heading {
@@ -440,7 +447,7 @@ ul li {
     height: 300px;
     width: 300px;
     padding: 30px;
-    background-color: #EBE1CA;
+    background-color: #f8f0e3;
     border-radius: 50%;
     border: 2px rgba(133, 123, 123, 0.4) solid;
 }
@@ -465,21 +472,16 @@ ul li {
 #sleep-practice {
     width: 100%;
     height: fit-content;
-    color: #EBE1CA;
-    background-color: #c39d3c;
 }
 
 #list-left {
     width: 50%;
     height: 100%;
-    float: left;
-    background-color: #c39d3c;
 }
 
 #list-right {
     width: 50%;
     height: 100%;
-    float: right;
 }
 
 .left-content {
@@ -491,15 +493,20 @@ ul li {
 /* Footer Styling */
 
 footer {
-    width: 100%;
-    height: 150px;
-    clear: both;
-    background-color: #EBE1CA;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
 }
 
 .social-networks {
-    list-style: none;
-    text-align: center;
+        list-style-type: none;
+        margin-right: 30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        gap: 70px;
 }
 
 .social-networks a {
@@ -507,7 +514,7 @@ footer {
 }
 
 .social-networks li {
-    display: inline;
+    display: inline-flex;
 }
 
 .social-networks i {
@@ -516,6 +523,9 @@ footer {
     padding: 4%;
     color: #27345e;
 }
+
+
+/* Line Breaks and extras */
 
 .divide {
     height: 5px;
@@ -535,4 +545,13 @@ footer {
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
+}
+
+.light-divide {
+    border: 1px solid  rgba(35, 34, 80, 0.5);
+    background-color:  rgba(35, 34, 80, 0.5);
+    width: 75%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);    
 }
