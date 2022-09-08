@@ -178,6 +178,9 @@ button:hover {
     text-align: center;
     color: #f8f0e3;
     box-sizing: border-box;
+    border-style: solid;
+    border-color: #f8f0e3;
+    border-width: 0 1px;
     flex: 1;
 }
 
@@ -222,8 +225,10 @@ button:hover {
     overflow: hidden;
 }
 
-#mindfulness_heading {
-    font-size: 280%;
+.mind-head {
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .mindfulness-list {
@@ -434,6 +439,7 @@ button:hover {
 
 #sleep-practice ul {
     list-style-type: none;
+    padding: 0;
 }
 
 #list-left h2 {
@@ -572,11 +578,7 @@ footer {
     background-color: #232250;
 }
 
-.style-head {
-    font-size: 4rem;
-    text-align: center;
-    letter-spacing: 2px;
-}
+
 
 .centered {
     position: relative;
@@ -639,6 +641,35 @@ footer {
         margin-top: 30px;
     }
 
+    #sleep-benefits {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #sleep-benefits-box {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        font-size: .8rem;;
+        text-align: center;
+    }
+
+    #sleep-benefit-left {
+        font-size: .8rem;;
+        text-align: center;
+        width: 100%;
+    }
+    #sleep-benefit-right {
+        font-size: .8rem;;
+        text-align: center;
+        width: 100%;
+    }
+
+    #sleep-benefit-center {
+        clear: both;
+        padding: 0;
+        margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -665,6 +696,46 @@ footer {
 
     #title-box h2 {
         padding: 25px;
+    }
+
+    #mindfulness_outer {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 80%;
+    }
+    .mindfulness-list {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .mindfulness-list li {
+        list-style-type: none;
+    }
+
+    #list {
+        width: 100%;
+        padding: 0;
+    }
+
+    .fa-li {
+        display: none;
+    }
+
+    #list ul {
+        margin: 0;
+    }
+
+    #video-outer div {
+        height: fit-content;
+    }
+
+    .signup-form {
+        height: fit-content;
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.6);
+        max-width: 400px;
+        margin: 0 10%;
+        left: 0;
     }
 
 }
