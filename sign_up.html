@@ -27,7 +27,7 @@
                 </li>
             </ul>
         </nav>
-        <a href="sign_up.html"><button>Sign Up</button></a>
+        <a href="sign_up.html">Sign Up</button></a>
     </header>
 
     <section class="sign-up">
@@ -36,27 +36,23 @@
                 <h2 class="sign-up-headings">Join Us Today!</h2>
                 <label for="f-name">First Name:</label>
                 <input id="f-name" type="text" name="first-name" class="text-input" required>
-
                 <label for="l-name">Last Name:</label>
                 <input id="l-name" type="text" name="last-name" class="text-input" required>
-
                 <label for="email">Email address:</label>
                 <input id="email" type="email" name="email-address" class="text-input" required>
-
                 <h3 class="sign-up-headings">What would you like to sign up for?</h3>
-
                 <label for="med-meetup" class="radio-input">Meditation Meetup: </label>
-                <input id="med-meetup" type="radio" name="med-meetup" class="radio-input" required>
-                <hr>
+                <input id="med-meetup" type="checkbox" name="checks" value="med-meetup" class="radio-input">
+                <hr class="sign-up-break">
                 <label for="mind-tea" class="radio-input">Mindfulness tea: </label>
-                <input id="mind-tea" type="radio" name="mind-tea" class="radio-input">
-                <hr>
+                <input id="mind-tea" type="checkbox" name="checks" value="mind-tea" class="radio-input">
+                <hr class="sign-up-break">
                 <label for="relax-walk" class="radio-input">Relaxing Walk: </label>
-                <input id="relax-walk" type="radio" name="relax" class="radio-input">
-                <hr>
+                <input id="relax-walk" type="checkbox" name="checks" value="relax-walk" class="radio-input">
+                <hr class="sign-up-break">
                 <label for="happy-meet" class="radio-input">Happy Coffee Meetup: </label>
-                <input id="happy-meet" type="radio" name="coffee" class="radio-input">
-                <hr>
+                <input id="happy-meet" type="checkbox" name="checks" value="happy-meet" class="radio-input">
+                <hr class="sign-up-break">
                 <input type="submit" value="Join US!" class="join-button">
             </form>
         </div>

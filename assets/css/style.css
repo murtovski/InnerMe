@@ -253,7 +253,7 @@ button:hover {
 }
 
 #sidebar h3 {
-    padding-top: 30px 10px 0 10px;
+    padding: 30px 10px 0 10px;
     text-align: center;
     font-size: 170%;
 }
@@ -462,20 +462,29 @@ button:hover {
 /* sign up page styling*/
 
 .sign-up {
-    background-image: url(../images/relaxing_background.jpg);
+    background-image: url(../images/relaxing_background1.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    height: fit-content;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
     left: 10%;
+    top: 30%;
     padding: 30px;
+}
+
+.sign-up-headings {
+    padding-bottom: 30px;
+}
+
+.sign-up-break {
+    padding-top: 10px;
 }
 
 .signup-form>h2 {
@@ -600,7 +609,62 @@ footer {
         border-color: #f8f0e3;
         border-width: 0 1px;
     }
+
     .group-container div {
         height: 100%;
-        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    header {
+        height: fit-content;
+        padding: 25px 10%
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    #video-outer {
+        height: fit-content;
+        display: block;
+    }
+
+    #video-outer div {
+        width: 75%;
+        margin: 0 auto;
+        height: 275px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        display: inline-block;
+        height: fit-content;
+    }
+
+    .menu {
+        clear: both;
+        float: left;
+    }
+
+    #groups {
+        display: block;
+    }
+
+    .group-container {
+        height: auto;
+        border-style: solid;
+        border-color: #f8f0e3;
+        border-width: 1px 0;
+    }
+
+    #title-box h2 {
+        padding: 25px;
+    }
+
 }
