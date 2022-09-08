@@ -68,7 +68,8 @@ header {
     font-weight: 500;
 }
 
-button {
+#sign-up {
+    text-decoration: none;
     padding: 10px 25px;
     background-color: rgb(35, 34, 80, 1);
     border: none;
@@ -78,7 +79,7 @@ button {
     color: #f8f0e3;
 }
 
-button:hover {
+#sign-up:hover {
     background-color: rgb(35, 34, 80, 0.7);
 }
 
@@ -256,6 +257,7 @@ button:hover {
     background-color: rgba(35, 34, 80, .1);
     border: 3px solid #f8f0e3;
     border-radius: 10%;
+    margin-bottom: 30px;
 }
 
 #sidebar h3 {
@@ -318,10 +320,11 @@ button:hover {
 /* meditation list and section */
 
 #meditation {
-    width: 100%;
+    width: 80%;
     height: fit-content;
     background-color: #f8f0e3;
     padding: 30px 10px;
+    margin: 0 auto;
 }
 
 .article-head {
@@ -646,21 +649,26 @@ footer {
         width: 90%;
         margin: 0 auto;
     }
+
     #sleep-benefits-box {
         display: block;
         width: 90%;
         margin: 0 auto;
-        font-size: .8rem;;
+        font-size: .8rem;
+        ;
         text-align: center;
     }
 
     #sleep-benefit-left {
-        font-size: .8rem;;
+        font-size: .8rem;
+        ;
         text-align: center;
         width: 100%;
     }
+
     #sleep-benefit-right {
-        font-size: .8rem;;
+        font-size: .8rem;
+        ;
         text-align: center;
         width: 100%;
     }
@@ -704,6 +712,7 @@ footer {
         margin: 0 auto;
         font-size: 80%;
     }
+
     .mindfulness-list {
         display: block;
         margin: 0 auto;
