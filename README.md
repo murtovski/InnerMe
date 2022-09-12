@@ -60,25 +60,34 @@ The only bug that remains is the stray script tag as mentioned above. The elemen
 
 # Credits
 -https://www.mindful.org/what-is-mindfulness/
-
 -https://www.headspace.com
-
 -https://www.youtube.com
+-https://www.healthline.com
+-https://health.gov/myhealthfinder
 
 ## Content
-### How We Can Help article - Home page
 ### Benefits of a Good Sleep - Sleep page
+https://health.gov/myhealthfinder/healthy-living/mental-health-and-relationships/get-enough-sleep
 ### 7 Steps to Healthy Sleep - Sleep page
+https://www.healthline.com/health/sleep-hygiene
 ### What is Mindfulness? - Mindfulness page
+https://www.mindful.org/defining-mindfulness/
 ### The difference between mindfulness and meditation - Mindfulness page
+https://www.headspace.com/mindfulness/mindfulness-101
 ### How mindfulness meditation works - Mindfulness page
+https://www.headspace.com/mindfulness/mindfulness-101
 
 
 ## Media
 ### Home page hero
+https://www.goalcast.com/you-are-love-force-beauty-vulnerability/
 ### Sleep page hero
+https://comps.gograph.com/morning-bedroom-cartoon-character-waking-up-stretching_gg102358687.jpg
 ### Sleep page icon
+https://www.freepik.com/vectors/sleepy-mom/3
 ### Mindulness page hero
+https://www.headspace.com/mindfulness
 ### Mindfulness page video
-
-# Other
+https://www.youtube.com/watch?v=ULJSacYFzzQ
+### Sign up page image 
+https://www.sleepfoundation.org/sleep-hygiene/sleeping-upright
