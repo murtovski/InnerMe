@@ -14,9 +14,11 @@ Footer - The footer is a simple design with links to the most popular social med
 Home page - Landing page:
 The home page contains a large hero image, which will be the theme for all of the web pages included on the website. This page will inform the user of what InnerMe can provide in terms of information and support. At the bottom of the page there is also information on community activities in the Dublin area that the user may take part in. This can be updated to include local area activities from all over the world.
 
-Sleep page - 
-Mindfulness page
-Sign Up page
+Sleep page - The sleep page also has a hero image and some information on the benefits of healthy sleeping around a icon image. There is also a list of 7 ways to improve your sleep included underneath this.
+
+Mindfulness page - The mindfulness page also includes a hero image, this page is designed to help the user to be able to identify ways to focus on their own mindfulness. It gives a brief description in a side box with associated icons. There is a video included in a section underneath this and there is two atricles at the end of the page to give a comprehensive description of mindfulness and meditation.
+
+Sign Up page - The sign up page takes on new members and will ask them if they would like to choose a group to join. New members that wish to join groups will get newsletters and additional information about them.
 
 
 Project No. 1 - Mindfulness site
