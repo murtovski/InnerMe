@@ -47,14 +47,14 @@ I built the page starting with a full desktop size and tested it's funtionality,
 ## Validator Testing
 
 ### html validator
-One error has shown up for the html validator, which is a stray start script tag. This is in reference to the imported script element for the font awesome icons.
+No errors show in the w3 validator.
 
 ### css validator
 The css validator successfully tested the project and has no issues.
 
 
 ## Unfixed Bugs
-The only bug that remains is the stray script tag as mentioned above. The element was directly taken from font awesome and functions as intended. There is no clear explanation as to
+All bugs were removed and validators show no errors. There was an error with a stray script tag but i moved it to the head of the html file and the error stopped.
 
 # Deployment
 
