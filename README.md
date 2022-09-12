@@ -4,6 +4,8 @@ Inner me is a site that educates and enlightens it's users in Ireland about the 
 
 The site also connects with a self care community of people who enjoy peaceful walks and meditation and meet in Dublin, four times a week. Users can sign up for one of these meet-ups or just sign up to recieve news letters and tips on how to take care of themselves.
 
+![responsive mockup] 
+
 # Features
 This section includes all of the existing features included in the page.
 
