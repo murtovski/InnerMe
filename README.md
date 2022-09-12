@@ -63,7 +63,22 @@ The only bug that remains is the stray script tag as mentioned above. The elemen
 
 -https://www.headspace.com
 
+-https://www.youtube.com
+
 ## Content
+### How We Can Help article - Home page
+### Benefits of a Good Sleep - Sleep page
+### 7 Steps to Healthy Sleep - Sleep page
+### What is Mindfulness? - Mindfulness page
+### The difference between mindfulness and meditation - Mindfulness page
+### How mindfulness meditation works - Mindfulness page
+
+
 ## Media
+### Home page hero
+### Sleep page hero
+### Sleep page icon
+### Mindulness page hero
+### Mindfulness page video
 
 # Other
