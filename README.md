@@ -40,9 +40,30 @@ The sign up page takes on new members and will ask them if they would like to ch
 
 ![sign-up-page](https://github.com/murtovski/InnerMe/blob/main/media/sign-up-page.png)
 
-Project No. 1 - Mindfulness site
+# Testing
+
+I built the page starting with a full desktop size and tested it's funtionality, once this was completed I began to test responsiveness for different screen sizes. I used the web editor to change the screen size to some popular widths and ensured that the site responded as intended.
+
+## Validator Testing
+
+### html validator
+One error has shown up for the html validator, which is a stray start script tag. This is in reference to the imported script element for the font awesome icons.
+
+### css validator
+The css validator successfully tested the project and has no issues.
 
 
-# Reference sites:
+## Unfixed Bugs
+The only bug that remains is the stray script tag as mentioned above. The element was directly taken from font awesome and functions as intended. There is no clear explanation as to
+
+# Deployment
+
+# Credits
 -https://www.mindful.org/what-is-mindfulness/
+
 -https://www.headspace.com
+
+## Content
+## Media
+
+# Other
