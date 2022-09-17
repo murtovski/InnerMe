@@ -54,6 +54,7 @@ No errors show in the w3 validator.
 ### css validator
 The css validator successfully tested the project and has no issues.
 
+### Lighthouse report
 
 ## Unfixed Bugs
 All bugs were removed and validators show no errors. There was an error with a stray script tag but i moved it to the head of the html file and the error stopped.
