@@ -1,3 +1,5 @@
+#Link to deployed site: https://murtovski.github.io/InnerMe/
+
 # InnerMe
 
 Inner me is a site that educates and enlightens it's users in Ireland about the impoortance of self-care. Sleep, mindfulness and meditation can help people feel much happier on a daily basis and the InnerMe site provides the tools to teach yourself the importance of looking after your mind as well as your body.
