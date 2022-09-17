@@ -632,6 +632,16 @@ footer {
         display: block;
     }
 
+    #groups {
+        flex-wrap: wrap;
+    }
+
+    .group-container > *{
+        padding: 10px 10px;
+        width: auto;
+        
+    }
+
     #video-outer {
         height: fit-content;
         display: block;

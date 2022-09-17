@@ -12,11 +12,15 @@
     <script src="https://kit.fontawesome.com/dcf81fa4d0.js" crossorigin="anonymous"></script>
 </head>
 
+<!--Main body--->
+
 <body>
+    <!--Header element --->
     <header>
         <a class="logo" href="index.html">
             <h1>InnerMe</h1>
         </a>
+        <!--Nav bar element--->
         <nav class="menu">
             <ul>
                 <li>
@@ -32,29 +36,41 @@
         </nav>
         <a href="sign_up.html" id="sign-up"><u>Sign Up</u></a>
     </header>
-
+    <!--Sign up form section--->
     <section class="sign-up">
         <div class="signup-form">
             <form action="https://formdump.codeinstitute.net/" method="post">
                 <h2 class="sign-up-headings">Join Us Today!</h2>
-                <label for="f-name">First Name:</label>
-                <input id="f-name" type="text" name="first-name" class="text-input" required>
+                <div>
+                    <label for="f-name">First Name:</label>
+                    <input id="f-name" type="text" name="first-name" class="text-input" required>
+                </div>
                 <label for="l-name">Last Name:</label>
                 <input id="l-name" type="text" name="last-name" class="text-input" required>
-                <label for="email">Email address:</label>
-                <input id="email" type="email" name="email-address" class="text-input" required>
+                <div>
+                    <label for="email">Email address:</label>
+                    <input id="email" type="email" name="email-address" class="text-input" required>
+                </div>
                 <h3 class="sign-up-headings">What would you like to sign up for?</h3>
-                <label for="med-meetup" class="radio-input">Meditation Meetup: </label>
-                <input id="med-meetup" type="checkbox" name="checks" value="med-meetup" class="radio-input">
+                <div>
+                    <label for="med-meetup" class="radio-input">Meditation Meetup: </label>
+                    <input id="med-meetup" type="checkbox" name="checks" value="med-meetup" class="radio-input">
+                </div>
                 <hr class="sign-up-break">
-                <label for="mind-tea" class="radio-input">Mindfulness tea: </label>
-                <input id="mind-tea" type="checkbox" name="checks" value="mind-tea" class="radio-input">
+                <div>
+                    <label for="mind-tea" class="radio-input">Mindfulness tea: </label>
+                    <input id="mind-tea" type="checkbox" name="checks" value="mind-tea" class="radio-input">
+                </div>
                 <hr class="sign-up-break">
-                <label for="relax-walk" class="radio-input">Relaxing Walk: </label>
-                <input id="relax-walk" type="checkbox" name="checks" value="relax-walk" class="radio-input">
+                <div>
+                    <label for="relax-walk" class="radio-input">Relaxing Walk: </label>
+                    <input id="relax-walk" type="checkbox" name="checks" value="relax-walk" class="radio-input">
+                </div>
                 <hr class="sign-up-break">
-                <label for="happy-meet" class="radio-input">Happy Coffee Meetup: </label>
-                <input id="happy-meet" type="checkbox" name="checks" value="happy-meet" class="radio-input">
+                <div>
+                    <label for="happy-meet" class="radio-input">Happy Coffee Meetup: </label>
+                    <input id="happy-meet" type="checkbox" name="checks" value="happy-meet" class="radio-input">
+                </div>
                 <hr class="sign-up-break">
                 <input type="submit" value="Join US!" class="join-button">
             </form>
